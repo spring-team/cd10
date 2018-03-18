@@ -11,7 +11,7 @@ class Cd10Controller {
 
     @RequestMapping(method = GET, path = "/")
     public String root() {
-        // some test some more some more
+        // some test some more some more even more
         return "App running: Served from " + getClass().getName();
     }
 
